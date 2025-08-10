@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
 
 Route::get('/', function () {
-    return File::get(public_path('front-end/index.html'));
+    return 'API Sistem Antrian Siap Untuk Digunakan!';
 });
 
 Route::post('/login', [AdminController::class, 'login']);
