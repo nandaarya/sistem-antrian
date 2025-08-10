@@ -7,10 +7,10 @@ if (admin) {
     `;
 } else {
     alert('Anda belum login! Silakan login terlebih dahulu.');
-    window.location.href = 'index.html';
+    window.location.href = '/front-end/index.html';
 }
 
 document.getElementById('logoutButton').addEventListener('click', function() {
     localStorage.removeItem('admin');
-    window.location.href = 'index.html';
+    window.location.href = '/front-end/index.html';
 });
