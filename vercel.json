@@ -12,6 +12,7 @@
         "APP_ENV": "production",
         "APP_DEBUG": "true",
         "APP_URL": "https://sistem-antrian.com",
+        "APP_KEY": "base64:Zrso1ApCO4zbSQHaOr7fGjzSKX6/B68KTGycwwtUa44=",
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
