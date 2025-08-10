@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
 
 Route::get('/', function () {
-    return 'Route Testing Berhasil!';
+    return File::get(public_path('front-end/index.html'));
 });
 
 Route::post('/login', [AdminController::class, 'login']);

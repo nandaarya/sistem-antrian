@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sistem Antrian - Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="login-page">
+    <div class="login-container">
+        <h2 class="login-title">Login Admin</h2>
+
+        <form id="loginForm" class="login-form">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">Login</button>
+        </form>
+
+        <div id="result" class="form-result"></div>
+
+        <p class="login-link">
+            Ingin masuk sebagai pelanggan? <a href="user.html">Klik di sini</a>
+        </p>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
